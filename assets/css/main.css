@@ -796,15 +796,17 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.hero {
+.hero-section {
+  background-image: url('assets/img/ales-krivec-QnNqGoCnBg0-unsplash.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
-  min-height: 60vh;
-  position: relative;
-  padding: 60px 0;
+  height: 100vh; /* Adjust height as needed */
   display: flex;
   align-items: center;
-  background: url('assets/img/ales-krivec-QnNqGoCnBg0-unsplash.jpg') no-repeat center center;
-  background-size: cover;
+  justify-content: center;
+  color: #fff; /* Adjust text color for readability */
 }
 
 .hero h1 {
